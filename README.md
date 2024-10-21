@@ -10,7 +10,7 @@ This API allows users to simulate this problem multiple times and see the result
 
 ## API Endpoint
 
-- `POST /play/`
+- `POST /game/play/`
   - Request body: `{"choose_option": str, "attempts": int}`
     - `choose_option`: Either "keep" (keep initial choice) or "change" (switch to the other door)
     - `attempts`: Number of times to run the simulation
